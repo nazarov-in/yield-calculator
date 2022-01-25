@@ -1,0 +1,30 @@
+@import "./src/variable/variable";
+
+.calculator-deposit{
+  display: flex;
+}
+.calculator-deposit-select{
+  display: block;
+}
+.calculator-deposit-money{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 43px;
+  height: fit-content;
+
+  li{
+    list-style: none;
+    margin-right: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: $colorTextBold;
+    padding: 0 3px 7px;
+  }
+}
+.current-active{
+  border-bottom: 3px solid $colorBright;
+  border-radius: 2px;
+  color: $colorBright !important;
+}

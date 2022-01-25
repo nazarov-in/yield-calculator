@@ -1,0 +1,61 @@
+@import "./src/variable/variable";
+
+.calculator-investment-time{
+  display: flex;
+  justify-content: space-between;
+
+  .calculator-input{
+    background: linear-gradient(90deg, rgb(251, 237, 16) 36%, rgb(238, 238, 238) 36%);
+  }
+  .active-month{
+    color: $colorTextBold;
+  }
+}
+
+.calculator-investment-range{
+  label{
+    display: block;
+  }
+}
+.calculator-investment-label{
+  display: flex;
+  justify-content: space-between;
+  max-width: 442px;
+  width: 100%;
+  margin-top: 20px;
+
+  label{
+    color: $colorInactive;
+    font-size: 17px;
+    font-weight: 400;
+    width: 12px;
+    margin-left: 4px;
+  }
+}
+.calculator-investment-rate{
+  max-width: 200px;
+  width: 100%;
+  border-radius: 15px;
+  background: #FAFAFA;
+  padding: 22px;
+  box-sizing: border-box;
+
+  p{
+    font-size: 18px;
+    font-weight: 500;
+    color: $colorTextRegular;
+  }
+  b{
+    font-size: 24px;
+    font-weight: 700;
+    color: $colorTextBold;
+    margin-top: 12px;
+    display: block;
+  }
+  span{
+    font-size: 14px;
+    font-weight: 700;
+    color: $colorTextRegular;
+  }
+}
+
